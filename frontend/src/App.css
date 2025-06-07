@@ -1,0 +1,28 @@
+/* App styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Loading spinner styles */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  color: #3498db;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+} 
